@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./img/koyuki_background.png') center center repeat;
+    background-size: contain;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bgm-toggle {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+img.icon {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+}
