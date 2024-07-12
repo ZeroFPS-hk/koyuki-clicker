@@ -7,6 +7,8 @@ function init() {
     let uwahSoundSrc = './sounds/uwah.ogx';
     let isBgmOn = false;
 
+    window.addEventListener("dragstart", (e)=>e.preventDefault());
+
     document.getElementById('bgm-toggle').addEventListener('click', (e) => {
         e.stopPropagation();  // Prevents click event from propagating to the body
         toggleBgm();
