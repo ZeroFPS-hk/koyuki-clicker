@@ -2,6 +2,10 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    user-select: none; /* Prevents text and elements from being selected */
+    -webkit-touch-callout: none; /* Prevents callout, like the long-press menu */
+    -webkit-user-select: none; /* Prevents text selection on iOS */
+    -webkit-tap-highlight-color: transparent; /* Prevents the blue highlight on touch */
 }
 
 body {
@@ -12,7 +16,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    user-select: none; /* Prevents text and elements from being selected */
 }
 
 #bgm-toggle {
