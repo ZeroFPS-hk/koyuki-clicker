@@ -16,8 +16,14 @@ body {
 
 #bgm-toggle {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 10px;
+    right: 10px;
+    z-index: 9999; /* Ensures the icon is on the top layer */
+}
+
+#bgm-icon {
+    width: 36px;
+    height: 36px;
 }
 
 img.icon {

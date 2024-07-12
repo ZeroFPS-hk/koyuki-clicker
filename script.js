@@ -38,10 +38,13 @@ function init() {
     }
 
     function addIcon(event, iconType) {
+        const iconSize = Math.floor(Math.random() * 51) + 100; // Random size between 100 and 150 inclusive
         const icon = document.createElement('img');
         icon.classList.add('icon');
         icon.style.left = `${event.clientX}px`;
         icon.style.top = `${event.clientY}px`;
+        icon.style.width = `${iconSize}px`;
+        icon.style.height = `${iconSize}px`;
         icon.src = `./img/${iconType}.png`;
         document.body.appendChild(icon);
     }
