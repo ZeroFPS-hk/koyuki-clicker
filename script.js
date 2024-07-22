@@ -1,3 +1,8 @@
+/*
+No way kokoyuki channel saw this and made a video about this lol. With some upgrades too. My respects for working through those upgrades on this chatgpt code mess.
+Anyway channel owner if you're reading this I just want to hold you solely responsible for giving the koyuki brainrot to me. My brain is now NIHAHAHAHA, love ya.
+*/
+
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
