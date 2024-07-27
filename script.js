@@ -11,7 +11,7 @@ function init() {
     let nihahahaSoundSrc = './sounds/nihahaha.ogx';
     let uwahSoundSrc = './sounds/uwah.ogx';
     let isBgmOn = false;
-    bgm.volume = 0.1;
+    bgm.volume = 0.8;
 
     window.addEventListener("dragstart", (e)=>e.preventDefault());
 
